@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141E30, #243B55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background: #1f2937;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: white;
+}
+
+#hangman {
+    font-size: 28px;
+    font-family: monospace;
+    white-space: pre;
+    margin: 20px 0;
+    color: white;
+}
+
+#word {
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+input:disabled {
+    background-color: #d1d5db;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 25px;
+}
